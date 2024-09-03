@@ -44,7 +44,7 @@
     max-width: 800px;
     padding: 0 1rem;
     overflow: hidden;
-    max-height: 280px;
+    max-height: 400px;
     overflow-y: auto; /* Adiciona uma barra de rolagem vertical se necessário */
     
 }

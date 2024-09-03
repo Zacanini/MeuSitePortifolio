@@ -1,6 +1,15 @@
 import React from "react";
 import "../css/textos.css";
 
+export const TituloGlobal = ({conteudo , id }) => {
+    return (
+        <>
+            <h1 id={id} className="TituloReadme"> {conteudo} </h1>
+        </>
+    )
+
+}
+
 export const TextoUm = () => {
     return (
         <>

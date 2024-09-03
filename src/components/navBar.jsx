@@ -27,7 +27,7 @@ export const NavBar = () => {
                 <a href="#ReadMe" className="menuItem">
                     <FaUser className="icon" />
                 </a>
-                <a href="#ReadMe" className="menuItem">
+                <a href="#skills" className="menuItem">
                     <FaCog className="icon" />
                 </a>
             </div>
