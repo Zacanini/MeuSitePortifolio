@@ -3,8 +3,9 @@ import './css/App.css'
 import React from 'react';
 import { NavBar } from './components/navBar';
 import { TextoUm } from './components/textos';
-import { ButtonUm } from './components/buttons';
 import { CaixaUm } from './components/AnimationBox';
+import { ReadMe } from './components/ReadMe';
+
 
 function App() {
 
@@ -13,11 +14,10 @@ function App() {
       <NavBar/>
       <div>
         <TextoUm/>
-        <ButtonUm/>
+        <CaixaUm/>
       </div>
-      <hr />
-      <CaixaUm/>
       
+      <ReadMe/>
     </>
   )
 }

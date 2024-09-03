@@ -19,3 +19,17 @@ export const ButtonTroca = ({ onClick  }) => {
     );
 };
 
+export const ButtonMyGit = ({ href }) => {
+    return (
+        <a 
+            href={href} 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="ButtonUm" 
+            style={{ marginTop: 10, display: 'inline-block', textDecoration: 'none' }}
+        >
+            Meu GitHub
+        </a>
+    );
+};
+

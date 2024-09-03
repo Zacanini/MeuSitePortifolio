@@ -1,5 +1,5 @@
 .TextoUm{
-    font-size: 30px;
+    font-size: 40px;
     color: #F2622E;
     line-height: 1.0;
     
@@ -28,4 +28,31 @@
 
 .TextoUm, .TextoPequeno {
     animation: fadeIn 1.5s ease-out; /* Aplica o efeito de fade-in e slide-up */
+}
+
+
+.TituloReadme{
+    font-size: 2.5rem;
+    margin-bottom: -36px;
+    font-weight: 700;
+    color: #fff;
+}
+.conteudo-readme {
+    color: #161616;
+    font-size: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 1rem;
+    overflow: hidden;
+    max-height: 280px;
+    overflow-y: auto; /* Adiciona uma barra de rolagem vertical se necessário */
+    
+}
+
+.conteudo-readme ul {
+    list-style-type: disc;
+}
+
+strong{
+    color: black;
 }

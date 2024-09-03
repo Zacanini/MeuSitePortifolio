@@ -21,16 +21,17 @@ export const NavBar = () => {
                 <FaBars className={rotatedIcon ? "icon rotated" : "icon"} />
             </button>
             <div className={`menu ${isMenuOpen ? "open" : ""}`}>
-                <button className="menuItem">
+                <a href="#home"  className="menuItem">
                     <FaHome className="icon" />
-                </button>
-                <button className="menuItem">
+                </a >
+                <a href="#ReadMe" className="menuItem">
                     <FaUser className="icon" />
-                </button>
-                <button className="menuItem">
-                    <FaCog className="icon" /> 
-                </button>
+                </a>
+                <a href="#ReadMe" className="menuItem">
+                    <FaCog className="icon" />
+                </a>
             </div>
         </div>
     );
+    
 };

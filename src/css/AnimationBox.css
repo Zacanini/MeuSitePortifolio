@@ -1,8 +1,8 @@
 .CaixaPai {
-    margin-top: 20px;
+    margin-top: 70px;
     border-radius: 10px;
     width: 100%;
-    max-width: 350px;
+    max-width: 450px;
     height: 130px;
     border: 2.2px solid white;
     background-color: rgb(2, 189, 189);
@@ -22,47 +22,47 @@
 }
 
 .nuvem, .nuvemDois {
-    width: 35px;
-    margin-right: 10px;
+    width: 40px;
+    margin-right: 12px;
     animation: float 30s ease-in-out infinite; /* Animação de flutuação */
 }
 
 .nuvemDois {
-    margin-top: 12px;
+    margin-top: 15px;
 }
 
 
 
 .Goku {
-    width: 70px;
+    width: 80px;
     position: absolute;
-    top: 0px;
+    top: -7px;
     left: -100px; /* Começa fora da tela à esquerda */
     z-index: 100;
     animation: flyGoku 5s linear infinite; /* Animação para o Goku voar */
 }
 
 .kuririn {
-    width: 250px;
+    width: 280px;
     position: absolute;
-    top:11px;
-    left: 50px;
+    top:1px;
+    left: 70px;
     z-index: 100;
 }
 
 .gokuEvegeta {
-    width: 170px;
+    width: 180px;
     position: absolute;
-    top: -15spx;
-    left: 60px; /* Começa fora da tela à esquerda */
+    top: -10px;
+    left: 80px; /* Começa fora da tela à esquerda */
     z-index: 100;
 }
 
 .majinVSgoku {
-    width: 180px;
+    width: 200px;
     position: absolute;
-    top: -38px;
-    left: 0px; /* Começa fora da tela à esquerda */
+    top: -58px;
+    left: 10px; /* Começa fora da tela à esquerda */
     z-index: 100;
 }
 

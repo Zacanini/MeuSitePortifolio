@@ -46,6 +46,12 @@ export const CaixaUm = () => {
                     <img className="nuvemDois" src="/images/nuvem.png" alt="" />
                     <img className="nuvem" src="/images/nuvem.png" alt="" />
                     <img className="nuvemDois" src="/images/nuvem.png" alt="" />
+                    <img className="nuvem" src="/images/nuvem.png" alt="" />
+                    <img className="nuvemDois" src="/images/nuvem.png" alt="" />
+                    <img className="nuvem" src="/images/nuvem.png" alt="" />
+                    <img className="nuvemDois" src="/images/nuvem.png" alt="" />
+                    <img className="nuvem" src="/images/nuvem.png" alt="" />
+                    <img className="nuvemDois" src="/images/nuvem.png" alt="" />
                 </div>
                 <img className={nomeclasse} src={src} alt="Imagem" />
                 <div className="chao"></div>
