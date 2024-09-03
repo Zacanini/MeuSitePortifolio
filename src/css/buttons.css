@@ -1,0 +1,33 @@
+.ButtonUm{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 2px;
+    animation: fadeIn 1.5s ease-out; /* Aplica o efeito de fade-in e slide-up */
+    padding: 4px 8px;
+
+    margin-top: 50px;
+}
+.ButtonUm:hover{
+    cursor: pointer;
+    border-radius: 3px;
+    
+    border-bottom:2px solid black ;
+    border-right:2px solid black ;
+    border-left:2px solid white ;
+    border-top:2px solid whites ;
+    transform: scale(1.05);
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px); /* Começa deslocado para baixo */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0); /* Sobe para sua posição original */
+    }
+}
+
+
+

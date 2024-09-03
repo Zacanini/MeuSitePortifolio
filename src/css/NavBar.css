@@ -1,0 +1,87 @@
+/* NavBar.css */
+.navBar {
+    background-color: #8D41BF;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.title {
+    color: white;
+    font-family: 'Teko', sans-serif;
+    font-weight: 700;
+    flex: 1;
+}
+
+.menuButton {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.menuButton:hover {
+    color: lightgray;
+    /* Change color on hover */
+}
+
+.menu {
+    position: absolute;
+    top: 45px;
+    right: 0;
+    width: 40px; /* Aumente a largura para acomodar ícones e texto centralizados */
+    background-color: #6A1B9A;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-20px);
+    /* Slightly moved up initially */
+    opacity: 0;
+    /* Start hidden */
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+    /* Smooth transition */
+}
+
+.menu.open {
+    transform: translateY(0);
+    /* Move into view */
+    opacity: 1;
+    /* Fade in */
+}
+
+.menuItem {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza ícones e texto horizontalmente */
+    text-align: center;
+    width: 100%; /* Garante que o item do menu ocupe toda a largura do menu */
+}
+
+.menuItem .icon {
+    margin-right: 8px;
+    transition: transform 0.3s ease;
+    /* Smooth rotation transition */
+}
+
+.menuItem:hover .icon {
+    color: lightgray;
+    /* Add shadow on hover */
+    cursor: pointer;
+}
+
+.rotated {
+    transform: rotate(90deg);
+    /* Rotate the icon 90 degrees */
+}

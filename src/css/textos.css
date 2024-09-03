@@ -1,0 +1,31 @@
+.TextoUm{
+    font-size: 30px;
+    color: #F2622E;
+    line-height: 1.0;
+    
+}
+.zaca{
+    font-size: 40px;
+    color: #fff;
+}
+.TextoPequeno{
+    color: #7f7f7fd1;
+    margin-top: -20px;
+    font-size: 10px;
+    font-family: 'Roboto' ,sans-serif;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px); /* Começa deslocado para baixo */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0); /* Sobe para sua posição original */
+    }
+}
+
+.TextoUm, .TextoPequeno {
+    animation: fadeIn 1.5s ease-out; /* Aplica o efeito de fade-in e slide-up */
+}
