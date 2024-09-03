@@ -18,6 +18,9 @@
     border-top:2px solid whites ;
     transform: scale(1.05);
 }
+
+
+
 @keyframes fadeIn {
     from {
         opacity: 0;

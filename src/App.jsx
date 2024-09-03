@@ -15,7 +15,9 @@ function App() {
         <TextoUm/>
         <ButtonUm/>
       </div>
+      <hr />
       <CaixaUm/>
+      
     </>
   )
 }

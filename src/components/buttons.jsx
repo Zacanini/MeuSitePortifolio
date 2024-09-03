@@ -11,5 +11,11 @@ export const ButtonUm = () => {
             </button>
         </>
     )
-}
+};
+
+export const ButtonTroca = ({ onClick  }) => {
+    return (
+        <button style={{marginTop:10}} className="ButtonUm" onClick={onClick}>Trocar Personagem</button>
+    );
+};
 

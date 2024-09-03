@@ -2,11 +2,14 @@
     margin-top: 20px;
     border-radius: 10px;
     width: 100%;
+    max-width: 350px;
     height: 130px;
     border: 2.2px solid white;
     background-color: rgb(2, 189, 189);
     position: relative;
     overflow: hidden;
+
+    animation: fadeIn 1.5s ease-out; /* Aplica o efeito de fade-in e slide-up */
 }
 
 .ConjuntoNuvens {
@@ -31,12 +34,36 @@
 
 
 .Goku {
-    width: 80px;
+    width: 70px;
     position: absolute;
-    top: 20px;
+    top: 0px;
     left: -100px; /* Começa fora da tela à esquerda */
-    z-index: 1;
+    z-index: 100;
     animation: flyGoku 5s linear infinite; /* Animação para o Goku voar */
+}
+
+.kuririn {
+    width: 250px;
+    position: absolute;
+    top:11px;
+    left: 50px;
+    z-index: 100;
+}
+
+.gokuEvegeta {
+    width: 170px;
+    position: absolute;
+    top: -15spx;
+    left: 60px; /* Começa fora da tela à esquerda */
+    z-index: 100;
+}
+
+.majinVSgoku {
+    width: 180px;
+    position: absolute;
+    top: -38px;
+    left: 0px; /* Começa fora da tela à esquerda */
+    z-index: 100;
 }
 
 .chao{
@@ -45,12 +72,12 @@
     width: 100px;
 
 }
-.chaoQ{
-    overflow: hidden;
-    margin-top: 30px;
-    margin-right: 300px;
-    width: 100px;
-
+.chao {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px; /* Ajuste a altura do chão conforme necessário */
+    background: linear-gradient(to top, #8B4513 40%, #228B22 70%); /* Marrom para terra e verde para grama */
 }
 
 @keyframes moveClouds {
@@ -80,5 +107,16 @@
     }
     100% {
         transform: translateX(110vw); /* Move Goku para fora da tela à direita */
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px); /* Começa deslocado para baixo */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0); /* Sobe para sua posição original */
     }
 }
