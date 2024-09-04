@@ -28,7 +28,7 @@ export const ButtonMyGit = ({ href }) => {
             className="ButtonUm" 
             style={{ marginTop: 10, display: 'inline-block', textDecoration: 'none' }}
         >
-            Meu GitHub
+            Meu LinkedIn
         </a>
     );
 };
