@@ -71,6 +71,9 @@
     border-radius: 5px;
     display: inline-block; /* Mantém o botão do tamanho do conteúdo */
 }
+.botaoProjetos:hover{
+    background-color: #fc5011;
+}
 
 img {
     max-width: 100%;

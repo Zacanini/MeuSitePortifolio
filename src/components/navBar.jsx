@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaBars, FaHome, FaUser, FaCog } from "react-icons/fa";
+import { FaBars, FaHome, FaUser, FaCode, FaFolderOpen } from "react-icons/fa";
 import '../css/NavBar.css';
 
 export const NavBar = () => {
@@ -21,17 +21,19 @@ export const NavBar = () => {
                 <FaBars className={rotatedIcon ? "icon rotated" : "icon"} />
             </button>
             <div className={`menu ${isMenuOpen ? "open" : ""}`}>
-                <a href="#home"  className="menuItem">
+                <a href="#home" className="menuItem">
                     <FaHome className="icon" />
-                </a >
+                </a>
                 <a href="#ReadMe" className="menuItem">
                     <FaUser className="icon" />
                 </a>
                 <a href="#skills" className="menuItem">
-                    <FaCog className="icon" />
+                    <FaCode className="icon" /> {/* Ícone de código */}
+                </a>
+                <a href="#projects" className="menuItem">
+                    <FaFolderOpen className="icon" /> {/* Ícone de projetos */}
                 </a>
             </div>
         </div>
     );
-    
 };

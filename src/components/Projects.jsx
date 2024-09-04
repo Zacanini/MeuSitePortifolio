@@ -8,29 +8,34 @@ export const Projects = () => {
 
     const projects = [
         {
-            name: "Beck And de gestão de vendas e ingressos feito em java para o Teatro central Juiz de fora",
+            name: "Back End de gestão de vendas e ingressos feito em Java para o Teatro Central Juiz de Fora",
             image: "./images/Teatro.png",
             link: "https://github.com/Zacanini/SistemaDeComprasEGest-oDeVagasTeatroCentral",
+            buttonText: "REPOSITÓRIO"
         },
         {
-            name: "Beck And em java feito durante a faculdade, de uma instituição bancaria",
+            name: "Back End em Java feito durante a faculdade, de uma instituição bancária",
             image: "./images/Banco.png",
             link: "https://github.com/Zacanini/Instituicao-BancariaJava",
+            buttonText: "REPOSITÓRIO"
         },
         {
-            name: "Front/Beck And feito em JavaScript de uma aplicação de previsão do tempo de qualquer cidade do mundo, Ultilizando a API da openWeather",
+            name: "Front/Back End feito em JavaScript de uma aplicação de previsão do tempo de qualquer cidade do mundo, utilizando a API da OpenWeather",
             image: "./images/Tempo.png",
             link: "https://github.com/Zacanini/APIprevisaoDoTempo/tree/main",
+            buttonText: "REPOSITÓRIO"
         },
         {
-            name: "Jogo do Spider Man inspirado no Mario Bross, o Spider Jump, feito completamente em JavScript ,onde o jogador clica em alguma tecla para pular,cada pulo soma 1 no score, a cada 10 pulos aumenta a velocidade e caso haja colisão o jogo encerra.",
+            name: "Jogo do Spider Man inspirado no Mario Bros, o Spider Jump, feito completamente em JavaScript, onde o jogador clica em alguma tecla para pular, cada pulo soma 1 no score, a cada 10 pulos aumenta a velocidade e caso haja colisão o jogo encerra.",
             image: "./images/Jogo.png",
             link: "https://github.com/Zacanini/LIGHT-DARK-Registration-Screen",
+            buttonText: "REPOSITÓRIO"
         },
         {
-            name: "Caso queira ver mais alguns projetos meu, te convido a acessar meu gitHub",
+            name: "Caso queira ver mais alguns projetos meus, te convido a acessar meu GitHub",
             image: "./images/GitHub.png",
             link: "https://github.com/Zacanini",
+            buttonText: "GITHUB"
         }
     ];
 
@@ -66,7 +71,7 @@ export const Projects = () => {
                                 target="blank"
                                 href={project.link}
                             >
-                                REPOSITÓRIO
+                                {project.buttonText}
                             </a>
                         </div>
                     ))}

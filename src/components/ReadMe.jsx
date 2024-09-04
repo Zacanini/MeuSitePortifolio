@@ -1,6 +1,6 @@
 import React from "react";
 import '../css/readMe.css';
-import { TituloReadme , ConteudoReadme } from './textos';
+import { TituloGlobal , ConteudoReadme } from './textos';
 import { ButtonMyGit } from "./buttons";
 
 
@@ -9,7 +9,8 @@ export const ReadMe = () => {
     return (
 
         <>
-            <TituloReadme/>
+            
+            <TituloGlobal conteudo={"Sobre mim: "} id={"ReadMe"} />
             <div className="ReadMe">
                 <ConteudoReadme/>
             </div>
