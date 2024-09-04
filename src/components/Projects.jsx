@@ -8,7 +8,6 @@ export const Projects = () => {
 
     const projects = [
         {
-<<<<<<< HEAD
             name: "Back End de gestão de vendas e ingressos feito em Java para o Teatro Central Juiz de Fora",
             image: "./images/Teatro.png",
             link: "https://github.com/Zacanini/SistemaDeComprasEGest-oDeVagasTeatroCentral",
@@ -37,31 +36,6 @@ export const Projects = () => {
             image: "./images/GitHub.png",
             link: "https://github.com/Zacanini",
             buttonText: "GITHUB"
-=======
-            name: "Beck And de gestão de vendas e ingressos feito em java para o Teatro central Juiz de fora",
-            image: "./images/Teatro.png",
-            link: "https://github.com/Zacanini/SistemaDeComprasEGest-oDeVagasTeatroCentral",
-        },
-        {
-            name: "Beck And em java feito durante a faculdade, de uma instituição bancaria",
-            image: "./images/Banco.png",
-            link: "https://github.com/Zacanini/Instituicao-BancariaJava",
-        },
-        {
-            name: "Front/Beck And feito em JavaScript de uma aplicação de previsão do tempo de qualquer cidade do mundo, Ultilizando a API da openWeather",
-            image: "./images/Tempo.png",
-            link: "https://github.com/Zacanini/APIprevisaoDoTempo/tree/main",
-        },
-        {
-            name: "Jogo do Spider Man inspirado no Mario Bross, o Spider Jump, feito completamente em JavScript ,onde o jogador clica em alguma tecla para pular,cada pulo soma 1 no score, a cada 10 pulos aumenta a velocidade e caso haja colisão o jogo encerra.",
-            image: "./images/Jogo.png",
-            link: "https://github.com/Zacanini/LIGHT-DARK-Registration-Screen",
-        },
-        {
-            name: "Caso queira ver mais alguns projetos meu, te convido a acessar meu gitHub",
-            image: "./images/GitHub.png",
-            link: "https://github.com/Zacanini",
->>>>>>> 393aefaf2403a7549a7f7c4b181f4c38a3b4c006
         }
     ];
 
@@ -97,11 +71,7 @@ export const Projects = () => {
                                 target="blank"
                                 href={project.link}
                             >
-<<<<<<< HEAD
                                 {project.buttonText}
-=======
-                                REPOSITÓRIO
->>>>>>> 393aefaf2403a7549a7f7c4b181f4c38a3b4c006
                             </a>
                         </div>
                     ))}
