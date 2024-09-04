@@ -7,7 +7,10 @@ import { CaixaUm } from './components/AnimationBox';
 import { ReadMe } from './components/ReadMe';
 import { DivSkills } from './components/skils';
 import { Projects } from './components/Projects';
+<<<<<<< HEAD
 import DownloadButton from './components/DownloadButton';
+=======
+>>>>>>> 393aefaf2403a7549a7f7c4b181f4c38a3b4c006
 
 
 function App() {
