@@ -51,6 +51,20 @@
     animation: fadeIn 1.5s ease-out;
     /* Aplica o efeito de fade-in e slide-up */
 }
+.TituloGlobal{
+    font-size: 2.5rem;
+    margin-bottom: -36px;
+    font-weight: 500;
+    color: #fff;
+
+    align-self: flex-start;
+    /* Move o título para o início da divPai (à esquerda) */
+    text-align: left;
+    /* Garante que o texto fique alinhado à esquerda */
+
+    animation: fadeIn 1.5s ease-out;
+    /* Aplica o efeito de fade-in e slide-up */
+}
 
 .conteudo-readme {
     color: #161616;
@@ -99,6 +113,58 @@ strong {
         align-self: center;
         /* Move o título para o início da divPai (à esquerda) */
         text-align: center;
+        /* Garante que o texto fique alinhado à esquerda */
+    }
+    .TituloGlobal {
+        font-size: 5.2rem;
+        align-self: center;
+        /* Move o título para o início da divPai (à esquerda) */
+        text-align: center;
+        /* Garante que o texto fique alinhado à esquerda */
+    }
+
+    .conteudo-readme {
+        font-size: 30px;
+        width: 80%;
+        max-height: 600px;
+
+
+    }
+
+
+}
+
+@media screen and (min-width: 1114px) {
+    h1.TextoUm {
+        font-size: 3.4rem;
+        line-height: 1;
+    }
+
+    .zaca {
+        font-size: 4.2rem;
+        color: #fff;
+    }
+
+    .TextoPequeno {
+        color: #7f7f7fd1;
+        margin-top: 70px;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .TituloReadme {
+        font-size: 5.5rem;
+        align-self: center;
+        /* Move o título para o início da divPai (à esquerda) */
+        text-align: center;
+        /* Garante que o texto fique alinhado à esquerda */
+    }
+    .TituloGlobal {
+        font-size: 5.5rem;
+        align-self: center;
+        /* Move o título para o início da divPai (à esquerda) */
+        text-align: center;
+        margin-top: 200px
         /* Garante que o texto fique alinhado à esquerda */
     }
 

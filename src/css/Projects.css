@@ -125,3 +125,47 @@ img {
         max-height: 500px; /* Limita a altura máxima da imagem */
     }
 }
+@media screen and (min-width: 1114px) {
+    .carousel {
+        
+        height: 850px;
+    }
+    
+    
+    .arrow {
+        font-size: 3rem;
+    }
+    
+    .left-arrow {
+        left: 10px; /* Ajusta o posicionamento para dentro do carrossel */
+    }
+    
+    .right-arrow {
+        right: 10px; /* Ajusta o posicionamento para dentro do carrossel */
+    }
+    
+    .nameProject {
+        font-size: 43px;
+        font-weight: 400;
+        line-height: 2.5rem;
+        margin-bottom: 20px;
+        max-width:80% ;
+        color: #1b1b1b;
+    }
+    
+    .botaoProjetos {
+        text-decoration: none;
+        text-align: center;
+        padding: 25px 48px;
+
+        margin-top: 10px;
+
+        font-size: 25px;
+    }
+    
+    img {
+        max-width: 90%;
+        height: auto; /* Garante que a imagem seja redimensionada proporcionalmente */
+        max-height: 500px; /* Limita a altura máxima da imagem */
+    }
+}

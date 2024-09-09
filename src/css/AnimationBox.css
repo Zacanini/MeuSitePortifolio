@@ -9,7 +9,7 @@
     position: relative;
     overflow: hidden;
 
-    animation: fadeIn 1.5s ease-out; /* Aplica o efeito de fade-in e slide-up */
+    animation: fadeIn 1.5s ease-out;
 }
 
 .ConjuntoNuvens {
@@ -17,35 +17,32 @@
     align-items: flex-start;
     position: absolute;
     width: 100%;
-    animation: moveClouds 4s linear infinite; /* Animação mais longa e contínua */
-    
+    animation: moveClouds 4s linear infinite;
 }
 
 .nuvem, .nuvemDois {
     width: 40px;
     margin-right: 12px;
-    animation: float 30s ease-in-out infinite; /* Animação de flutuação */
+    animation: float 30s ease-in-out infinite;
 }
 
 .nuvemDois {
     margin-top: 15px;
 }
 
-
-
 .Goku {
     width: 80px;
     position: absolute;
     top: -7px;
-    left: -100px; /* Começa fora da tela à esquerda */
+    left: -100px;
     z-index: 100;
-    animation: flyGoku 5s linear infinite; /* Animação para o Goku voar */
+    animation: flyGoku 5s linear infinite;
 }
 
 .kuririn {
     width: 280px;
     position: absolute;
-    top:1px;
+    top: 1px;
     left: 70px;
     z-index: 100;
 }
@@ -54,7 +51,7 @@
     width: 180px;
     position: absolute;
     top: -10px;
-    left: 80px; /* Começa fora da tela à esquerda */
+    left: 80px;
     z-index: 100;
 }
 
@@ -62,22 +59,36 @@
     width: 200px;
     position: absolute;
     top: -58px;
-    left: 10px; /* Começa fora da tela à esquerda */
     z-index: 100;
 }
 
-.chao{
+.gohanvsgohan {
+    width: 180px;
+    position: absolute;
+    top: -10px;
+    left: 50px;
+    z-index: 100;
+}
+.gogeta{
+    width: 180px;
+    position: absolute;
+    top: -10px;
+    left: 50px;
+    z-index: 100;
+}
+
+.chao {
     overflow: hidden;
     margin-top: 30px;
     width: 100px;
-
 }
+
 .chao {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 30px; /* Ajuste a altura do chão conforme necessário */
-    background: linear-gradient(to top, #8B4513 40%, #228B22 70%); /* Marrom para terra e verde para grama */
+    height: 30px;
+    background: linear-gradient(to top, #8B4513 40%, #228B22 70%);
 }
 
 @keyframes moveClouds {
@@ -89,8 +100,6 @@
     }
 }
 
-
-/* Animação para flutuação das nuvens */
 @keyframes float {
     0%, 100% {
         transform: translateY(0);
@@ -100,27 +109,105 @@
     }
 }
 
-/* Animação para o Goku voar da esquerda para a direita */
 @keyframes flyGoku {
     0% {
         transform: translateX(25);
     }
     100% {
-        transform: translateX(110vw); /* Move Goku para fora da tela à direita */
+        transform: translateX(110vw);
     }
 }
 
 @keyframes fadeIn {
     from {
         opacity: 0;
-        transform: translateY(20px); /* Começa deslocado para baixo */
+        transform: translateY(20px);
     }
     to {
         opacity: 1;
-        transform: translateY(0); /* Sobe para sua posição original */
+        transform: translateY(0);
     }
 }
 
-@media screen and (min-width: ) and (max-width:) {
-   
+/* Mobile-first: Para telas maiores que 768px (tablets) */
+@media screen and (min-width: 768px) {
+    .CaixaPai {
+        max-width: 600px; /* Aumenta a caixa */
+        height: 200px; /* Aumenta a altura da caixa */
+    }
+
+    .nuvem, .nuvemDois {
+        width: 60px; /* Aumenta o tamanho das nuvens */
+    }
+
+    .Goku {
+        width: 100px; /* Aumenta o tamanho do Goku */
+    }
+
+    .kuririn {
+        width: 400px; /* Aumenta o tamanho do Kuririn */
+        margin-top: 20px;
+    }
+
+    .gokuEvegeta {
+        width: 275px; /* Aumenta o tamanho do Goku e Vegeta */
+    }
+
+    .majinVSgoku {
+        width: 270px; /* Aumenta o tamanho da luta Majin VS Goku */
+    }
+
+    .gohanvsgohan {
+        width: 220px; /* Aumenta o tamanho do Gohan */
+    }
+    .gogeta {
+        width: 220px; /* Aumenta o tamanho do Gohan */
+        margin-top: 15px;
+    }
+
+    .chao {
+        height: 40px; /* Aumenta a altura do chão */
+    }
+}
+
+/* Para telas maiores que 1024px (notebooks e desktops) */
+@media screen and (min-width: 1024px) {
+    .CaixaPai {
+        max-width: 800px; /* Aumenta ainda mais a caixa */
+        height: 250px; /* Aumenta a altura da caixa */
+    }
+
+    .nuvem, .nuvemDois {
+        width: 80px; /* Aumenta ainda mais o tamanho das nuvens */
+    }
+
+    .Goku {
+        width: 120px; /* Aumenta o tamanho do Goku */
+    }
+
+    .kuririn {
+        width: 450px; /* Aumenta o tamanho do Kuririn */
+        margin-top: 50px;
+    }
+
+    .gokuEvegeta {
+        width: 310px; /* Aumenta o tamanho do Goku e Vegeta */
+        margin-top: 20px;
+    }
+
+    .majinVSgoku {
+        width: 330px; /* Aumenta o tamanho da luta Majin VS Goku */
+    }
+
+    .gohanvsgohan {
+        width: 290px; /* Aumenta o tamanho do Gohan */
+    }
+    .gogeta {
+        width: 290px; /* Aumenta o tamanho do Gohan */
+        margin-top: 10px;
+    }
+
+    .chao {
+        height: 50px; /* Aumenta a altura do chão */
+    }
 }

@@ -40,3 +40,13 @@
     }
     
 }
+
+@media screen and (min-width: 1114px) {
+    .downloadButton{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 22x 28px;
+    font-size: 30px;
+    }
+    
+}

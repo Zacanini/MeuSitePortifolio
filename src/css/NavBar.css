@@ -1,4 +1,4 @@
-/* NavBar.css */
+/* Estilo para mobile (menu sanduíche) */
 .navBar {
     background-color: #8D41BF;
     height: 50px;
@@ -25,18 +25,18 @@
     color: white;
     font-size: 24px;
     cursor: pointer;
+    margin-right: -10px;
 }
 
 .menuButton:hover {
     color: lightgray;
-    /* Change color on hover */
 }
 
 .menu {
     position: absolute;
     top: 45px;
     right: 0;
-    width: 40px; /* Aumente a largura para acomodar ícones e texto centralizados */
+    width: 40px;
     background-color: #6A1B9A;
     color: white;
     display: flex;
@@ -45,18 +45,13 @@
     border-radius: 3px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     transform: translateY(-20px);
-    /* Slightly moved up initially */
     opacity: 0;
-    /* Start hidden */
     transition: transform 0.3s ease-out, opacity 0.3s ease-out;
-    /* Smooth transition */
 }
 
 .menu.open {
     transform: translateY(0);
-    /* Move into view */
     opacity: 1;
-    /* Fade in */
 }
 
 .menuItem {
@@ -67,24 +62,62 @@
     margin: 10px 0;
     display: flex;
     align-items: center;
-    justify-content: center; /* Centraliza ícones e texto horizontalmente */
+    justify-content: center;
     text-align: center;
-    width: 100%; /* Garante que o item do menu ocupe toda a largura do menu */
+    width: 100%;
 }
 
 .menuItem .icon {
     margin-right: 8px;
     transition: transform 0.3s ease;
-    /* Smooth rotation transition */
 }
 
 .menuItem:hover .icon {
     color: lightgray;
-    /* Add shadow on hover */
     cursor: pointer;
 }
 
 .rotated {
     transform: rotate(90deg);
-    /* Rotate the icon 90 degrees */
+}
+
+/* Media query para tablets e desktops */
+@media (min-width: 768px) {
+    .navBar{
+        height: 70px; /* Aumente o valor para aumentar a altura */
+    }
+    .menuButton {
+        display: none; /* Esconde o botão sanduíche */
+    }
+    .title{
+        font-size: 30px;
+    }
+
+    .menu {
+        position: static;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: auto;
+        opacity: 1;
+        transform: none;
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    .menuItem {
+        margin: 0 15px;
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
+        padding: 0;
+        background: none;
+        border: none;
+    }
+
+    .menuItem:hover {
+        color: lightgray;
+    }
+
+    
 }

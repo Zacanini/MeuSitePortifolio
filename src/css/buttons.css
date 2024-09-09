@@ -10,7 +10,8 @@
     align-self: flex-start; /* Move o título para o início da divPai (à esquerda) */
     text-align: left; /* Garante que o texto fique alinhado à esquerda */
 
-    margin-top: 30px;
+    margin-top: 20px;
+   
 }
 .ButtonUm:hover{
     cursor: pointer;
@@ -42,6 +43,26 @@
     animation: fadeIn 1.5s ease-out; /* Aplica o efeito de fade-in e slide-up */
     padding: 16px 24px;
     font-size: 30px;
+
+    margin-top: 25px;
+    margin-bottom: -50px;
+
+    align-self: center; /* Move o título para o início da divPai (à esquerda) */
+    text-align: center; /* Garante que o texto fique alinhado à esquerda */
+
+    }
+    
+}
+@media screen and (min-width: 1024px) {
+    .ButtonUm{
+    border: 2px solid white;
+    border-radius: 5px;
+    animation: fadeIn 1.5s ease-out; /* Aplica o efeito de fade-in e slide-up */
+    padding: 16px 24px;
+    font-size: 30px;
+
+    margin-top: 10px;
+    margin-bottom: 20px;
 
     align-self: center; /* Move o título para o início da divPai (à esquerda) */
     text-align: center; /* Garante que o texto fique alinhado à esquerda */

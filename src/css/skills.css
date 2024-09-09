@@ -125,3 +125,47 @@ eyframes fadeIn {
         right: 100px;
     }
 }
+@media screen and (min-width: 1114px) {
+    
+    .carousel-item {
+        width: 80%;
+        padding: 100px 0 100px 0;
+    }
+
+    .carousel-icon {
+        width: 200px; /* Ajuste conforme necessário */
+        height: 200px; /* Ajuste conforme necessário */
+        
+    }
+    
+    .carousel-subtitle {
+        font-size: 2.4rem;
+    }
+    
+    .carousel-text {
+        font-size: 1.9rem;
+    }
+    
+    .carousel-button {
+        position: absolute;
+        
+        border: none;
+        background-color: transparent;
+        color: #3535359e;
+        cursor: pointer;
+        font-size: 3rem;
+        padding: 10px;
+        z-index: 10;
+    }
+    .carousel-button:hover{
+        color: #0000009e;
+    }
+    
+    .carousel-button.left {
+        left: 150px;
+    }
+    
+    .carousel-button.right {
+        right: 150px;
+    }
+}

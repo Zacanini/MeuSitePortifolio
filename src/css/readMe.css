@@ -39,3 +39,10 @@
         
     }
 }
+@media screen and (min-width: 1114px) {
+    .ReadMe{
+        height: 700px;
+        width: 80%;
+        
+    }
+}

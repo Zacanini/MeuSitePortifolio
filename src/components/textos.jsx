@@ -4,7 +4,7 @@ import "../css/textos.css";
 export const TituloGlobal = ({conteudo , id }) => {
     return (
         <>
-            <h1 id={id} className="TituloReadme"> {conteudo} </h1>
+            <h1 id={id} className="TituloGlobal"> {conteudo} </h1>
         </>
     )
 
