@@ -1,44 +1,57 @@
-.TextoUm{
+.TextoUm {
     font-size: 40px;
     color: #F2622E;
-    line-height: 1.0;
-    
+    line-height: 1.2;
+
 }
-.zaca{
+
+.zaca {
     font-size: 40px;
     color: #fff;
 }
-.TextoPequeno{
+
+.TextoPequeno {
     color: #7f7f7fd1;
     margin-top: -20px;
     font-size: 10px;
-    font-family: 'Roboto' ,sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 @keyframes fadeIn {
     from {
         opacity: 0;
-        transform: translateY(20px); /* Começa deslocado para baixo */
+        transform: translateY(20px);
+        /* Começa deslocado para baixo */
     }
+
     to {
         opacity: 1;
-        transform: translateY(0); /* Sobe para sua posição original */
+        transform: translateY(0);
+        /* Sobe para sua posição original */
     }
 }
 
-.TextoUm, .TextoPequeno {
-    animation: fadeIn 1.5s ease-out; /* Aplica o efeito de fade-in e slide-up */
+.TextoUm,
+.TextoPequeno {
+    animation: fadeIn 1.5s ease-out;
+    /* Aplica o efeito de fade-in e slide-up */
 }
 
-
-.TituloReadme{
+.TituloReadme {
     font-size: 2.5rem;
     margin-bottom: -36px;
     font-weight: 500;
     color: #fff;
 
-    animation: fadeIn 1.5s ease-out; /* Aplica o efeito de fade-in e slide-up */
+    align-self: flex-start;
+    /* Move o título para o início da divPai (à esquerda) */
+    text-align: left;
+    /* Garante que o texto fique alinhado à esquerda */
+
+    animation: fadeIn 1.5s ease-out;
+    /* Aplica o efeito de fade-in e slide-up */
 }
+
 .conteudo-readme {
     color: #161616;
     font-size: 20px;
@@ -47,16 +60,55 @@
     padding: 0 1rem;
     overflow: hidden;
     max-height: 400px;
-    overflow-y: auto; /* Adiciona uma barra de rolagem vertical se necessário */
-    animation: fadeIn 1.5s ease-out; /* Aplica o efeito de fade-in e slide-up */
-    
+    overflow-y: auto;
+    /* Adiciona uma barra de rolagem vertical se necessário */
+    animation: fadeIn 1.5s ease-out;
+    /* Aplica o efeito de fade-in e slide-up */
+
 }
 
 .conteudo-readme ul {
     list-style-type: disc;
-    animation: fadeIn 1.5s ease-out; /* Aplica o efeito de fade-in e slide-up */
+    animation: fadeIn 1.5s ease-out;
+    /* Aplica o efeito de fade-in e slide-up */
 }
 
-strong{
+strong {
     color: black;
+}
+
+@media screen and (min-width: 430px) and (max-width: 1114px) {
+    h1.TextoUm {
+        font-size: 3.2rem;
+    }
+
+    .zaca {
+        font-size: 4rem;
+        color: #fff;
+    }
+
+    .TextoPequeno {
+        color: #7f7f7fd1;
+        margin-top: 50px;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .TituloReadme {
+        font-size: 5.2rem;
+        align-self: center;
+        /* Move o título para o início da divPai (à esquerda) */
+        text-align: center;
+        /* Garante que o texto fique alinhado à esquerda */
+    }
+
+    .conteudo-readme {
+        font-size: 30px;
+        width: 80%;
+        max-height: 600px;
+
+
+    }
+
+
 }

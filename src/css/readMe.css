@@ -1,12 +1,24 @@
+.divPai{
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    height: 100vh; /* Define a altura do body como 100% da altura da janela */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
 .ReadMe{
     background-color: #7A36D9;
-    height: 400px;
+    height: 500px;
     width: 100%;
     
     margin-top: 30px;
 
     animation: fadeIn 1.5s ease-out; /* Aplica o efeito de fade-in e slide-up */
 }
+
+
 
 @keyframes fadeIn {
     from {
@@ -19,3 +31,11 @@
     }
 }
 
+
+@media screen and (min-width: 430px) and (max-width: 1114px) {
+    .ReadMe{
+        height: 600px;
+        width: 80%;
+        
+    }
+}

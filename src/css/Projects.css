@@ -68,6 +68,7 @@
     text-align: center;
     padding: 10px 15px;
     background-color: #F2622E;
+    color:black;
     border-radius: 5px;
     display: inline-block; /* Mantém o botão do tamanho do conteúdo */
 }
@@ -79,4 +80,48 @@ img {
     max-width: 100%;
     height: auto; /* Garante que a imagem seja redimensionada proporcionalmente */
     max-height: 300px; /* Limita a altura máxima da imagem */
+}
+
+@media screen and (min-width: 430px) and (max-width: 1114px) {
+    .carousel {
+        width: 80%;
+        height: 700px;
+    }
+    
+    
+    .arrow {
+        font-size: 2.8rem;
+    }
+    
+    .left-arrow {
+        left: 10px; /* Ajusta o posicionamento para dentro do carrossel */
+    }
+    
+    .right-arrow {
+        right: 10px; /* Ajusta o posicionamento para dentro do carrossel */
+    }
+    
+    .nameProject {
+        font-size: 23px;
+        font-weight: 600;
+        line-height: 30px;
+        margin-bottom: 20px;
+        color: #1b1b1b;
+    }
+    
+    .botaoProjetos {
+        text-decoration: none;
+        text-align: center;
+        padding: 20px 40px;
+
+        margin-top: 10px;
+
+        font-size: 25px;
+    }
+    
+    img {
+        max-width: 80%;
+        height: auto; /* Garante que a imagem seja redimensionada proporcionalmente */
+        max-height: 500px; /* Limita a altura máxima da imagem */
+    }
 }

@@ -26,7 +26,7 @@ export const ButtonMyGit = ({ href }) => {
             target="_blank" 
             rel="noopener noreferrer" 
             className="ButtonUm" 
-            style={{ marginTop: 10, display: 'inline-block', textDecoration: 'none' }}
+            style={{ display: 'inline-block', textDecoration: 'none' }}
         >
             Meu LinkedIn
         </a>

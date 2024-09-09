@@ -62,7 +62,7 @@ export const Projects = () => {
                         <div className="divProject" key={index}>
                             <h1 className="nameProject">{project.name}</h1>
                             <img
-                                style={{ width: 340, marginBottom: 8 }}
+                                style={{ marginBottom: 8 }}
                                 src={project.image}
                                 alt="Project"
                             />

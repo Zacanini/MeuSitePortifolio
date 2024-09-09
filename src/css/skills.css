@@ -1,13 +1,13 @@
+
 .divSkills {
-    height: 300px;
-    width: 100%;
-    background-color: #7A36D9;
-    margin-top: 30px;
-    position: relative;
-    overflow: hidden; /* Esconde os itens que estão fora da visão */
     display: flex;
     align-items: center;
     justify-content: center;
+
+    margin-top: 30px;
+    position: relative;
+    overflow: hidden; /* Esconde os itens que estão fora da visão */
+    
 
     animation: fadeIn 1.5s ease-out; /* Aplica o efeito de fade-in e slide-up */
 }
@@ -17,6 +17,12 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+
+
+    
+    width: 100%;
+    padding: 50px 0 50px 0;
+    background-color: #7A36D9;
 }
 
 .carousel-icon {
@@ -68,5 +74,54 @@ eyframes fadeIn {
     to {
         opacity: 1;
         transform: translateY(0); /* Sobe para sua posição original */
+    }
+}
+
+@media screen and (min-width: 430px) and (max-width: 1114px) {
+    
+    .carousel-item {
+        width: 80%;
+        padding: 100px 0 100px 0;
+    }
+    
+    .carousel-icon {
+        width: 180px; /* Ajuste conforme necessário */
+        height: 180px; /* Ajuste conforme necessário */
+        margin-bottom: 10px;
+    }
+    
+    .carousel-subtitle {
+        font-size: 2.2rem;
+        color: #fff;
+        margin: 0;
+    }
+    
+    .carousel-text {
+        font-size: 1.7rem;
+        color: #fff;
+        margin: 0;
+    }
+    
+    .carousel-button {
+        position: absolute;
+        
+        border: none;
+        background-color: transparent;
+        color: #3535359e;
+        cursor: pointer;
+        font-size: 3rem;
+        padding: 10px;
+        z-index: 10;
+    }
+    .carousel-button:hover{
+        color: #0000009e;
+    }
+    
+    .carousel-button.left {
+        left: 100px;
+    }
+    
+    .carousel-button.right {
+        right: 100px;
     }
 }
