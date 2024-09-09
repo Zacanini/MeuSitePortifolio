@@ -1,25 +1,58 @@
-.ButtonUm{
+.ButtonUm {
     background-color: transparent;
     border: 1px solid white;
     color: white;
     border-radius: 4px;
-    animation: fadeIn 1.5s ease-out; /* Aplica o efeito de fade-in e slide-up */
+    animation: fadeIn 1.5s ease-out;
+    /* Aplica o efeito de fade-in e slide-up */
     padding: 8px 16px;
     font-size: 20px;
 
-    align-self: flex-start; /* Move o título para o início da divPai (à esquerda) */
-    text-align: left; /* Garante que o texto fique alinhado à esquerda */
+    align-self: flex-start;
+    /* Move o título para o início da divPai (à esquerda) */
+    text-align: left;
+    /* Garante que o texto fique alinhado à esquerda */
 
     margin-top: 20px;
-   
+
 }
-.ButtonUm:hover{
+
+.ButtonUm:hover {
     cursor: pointer;
     border-radius: 6px;
-    border-bottom:2px solid black ;
-    border-right:2px solid black ;
-    border-left:2px solid white ;
-    border-top:2px solid whites ;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid white;
+    border-top: 2px solid whites;
+    transform: scale(1.02);
+}
+
+.ButtonMyGit {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 4px;
+    animation: fadeIn 1.5s ease-out;
+    /* Aplica o efeito de fade-in e slide-up */
+    padding: 8px 16px;
+    font-size: 20px;
+
+    align-self: flex-start;
+    /* Move o título para o início da divPai (à esquerda) */
+    text-align: left;
+    /* Garante que o texto fique alinhado à esquerda */
+
+    margin-top: 20px;
+
+}
+
+.ButtonMyGit:hover {
+    cursor: pointer;
+    border-radius: 6px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid white;
+    border-top: 2px solid whites;
     transform: scale(1.02);
 }
 
@@ -28,47 +61,76 @@
 @keyframes fadeIn {
     from {
         opacity: 0;
-        transform: translateY(20px); /* Começa deslocado para baixo */
+        transform: translateY(20px);
+        /* Começa deslocado para baixo */
     }
+
     to {
         opacity: 1;
-        transform: translateY(0); /* Sobe para sua posição original */
+        transform: translateY(0);
+        /* Sobe para sua posição original */
     }
 }
 
 @media screen and (min-width: 430px) and (max-width: 1114px) {
-    .ButtonUm{
-    border: 2px solid white;
-    border-radius: 5px;
-    animation: fadeIn 1.5s ease-out; /* Aplica o efeito de fade-in e slide-up */
-    padding: 16px 24px;
-    font-size: 30px;
+    .ButtonUm {
+        border: 2px solid white;
+        border-radius: 5px;
+        animation: fadeIn 1.5s ease-out;
+        /* Aplica o efeito de fade-in e slide-up */
+        padding: 16px 24px;
+        font-size: 30px;
 
-    margin-top: 25px;
-    margin-bottom: -50px;
+        margin-top: 25px;
+        margin-bottom: -50px;
 
-    align-self: center; /* Move o título para o início da divPai (à esquerda) */
-    text-align: center; /* Garante que o texto fique alinhado à esquerda */
+        align-self: center;
+        /* Move o título para o início da divPai (à esquerda) */
+        text-align: center;
+        /* Garante que o texto fique alinhado à esquerda */
 
     }
-    
+    .ButtonMyGit {
+        padding: 16px 20px;
+        font-size: 30px;
+        margin-bottom: 130px;
+        align-self: center;
+        /* Move o título para o início da divPai (à esquerda) */
+        text-align: center;
+        /* Garante que o texto fique alinhado à esquerda */
+
+    }
+
 }
+
 @media screen and (min-width: 1024px) {
-    .ButtonUm{
-    border: 2px solid white;
-    border-radius: 5px;
-    animation: fadeIn 1.5s ease-out; /* Aplica o efeito de fade-in e slide-up */
-    padding: 16px 24px;
-    font-size: 30px;
+    .ButtonUm {
+        border: 2px solid white;
+        border-radius: 5px;
+        animation: fadeIn 1.5s ease-out;
+        /* Aplica o efeito de fade-in e slide-up */
+        padding: 16px 24px;
+        font-size: 30px;
 
-    margin-top: 10px;
-    margin-bottom: 20px;
+        margin-top: 10px;
+        margin-bottom: 20px;
 
-    align-self: center; /* Move o título para o início da divPai (à esquerda) */
-    text-align: center; /* Garante que o texto fique alinhado à esquerda */
+        align-self: center;
+        /* Move o título para o início da divPai (à esquerda) */
+        text-align: center;
+        /* Garante que o texto fique alinhado à esquerda */
 
     }
-    
+
+    .ButtonMyGit {
+        padding: 16px 20px;
+        font-size: 30px;
+        margin-bottom: 130px;
+        align-self: center;
+        /* Move o título para o início da divPai (à esquerda) */
+        text-align: center;
+        /* Garante que o texto fique alinhado à esquerda */
+
+    }
+
 }
-
-

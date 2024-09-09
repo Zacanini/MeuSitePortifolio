@@ -25,7 +25,7 @@ export const ButtonMyGit = ({ href }) => {
             href={href} 
             target="_blank" 
             rel="noopener noreferrer" 
-            className="ButtonUm" 
+            className="ButtonMyGit" 
             style={{ display: 'inline-block', textDecoration: 'none' }}
         >
             Meu LinkedIn
