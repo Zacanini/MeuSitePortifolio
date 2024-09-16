@@ -18,7 +18,7 @@ function App() {
       <NavBar/>
       <div id="home">
         <TextoUm/>
-        <DownloadButton fileName="./images/Curriculo_Matheus_2024.pdf" label="Baixar Curriculo" />
+        <DownloadButton fileName="./images/Curriculo-Matheus-2024.pdf" label="Baixar Curriculo" />
         <CaixaUm/>
       </div>
       <ReadMe/>
