@@ -45,7 +45,7 @@ export const Projects = () => {
         },
         {
             name: "Jogo do Spider Man inspirado no Mario Bros, o Spider Jump, feito completamente em JavaScript, onde o jogador clica em alguma tecla para pular, cada pulo soma 1 no score, a cada 10 pulos aumenta a velocidade e caso haja colisão o jogo encerra.",
-            image: "./images/jogo.png",
+            image: "./images/Jogo.png",
             link: "https://github.com/Zacanini/LIGHT-DARK-Registration-Screen",
             buttonText: "REPOSITÓRIO"
         },
