@@ -8,6 +8,18 @@ export const Projects = () => {
 
     const projects = [
         {
+            name: "Sistema de gerenciamento de estoque de produtos e analise de vendas feito em react e dotnet web api(c#)" ,
+            image: "./images/capaGE.png",
+            link: "https://github.com/Zacanini/InventoryManager",
+            buttonText: "REPOSITÓRIO"
+        },
+        {
+            name: "Landing page de uma empresa de sistemas feita em React e jsx com um design responsivo e moderno",
+            image: "./images/capaZS.png",
+            link: "https://jf-systems.vercel.app/",
+            buttonText: "SITE"
+        },
+        {
             name: "Back End de gestão de vendas e ingressos feito em Java para o Teatro Central Juiz de Fora",
             image: "./images/Teatro.png",
             link: "https://github.com/Zacanini/SistemaDeComprasEGest-oDeVagasTeatroCentral",
@@ -26,8 +38,14 @@ export const Projects = () => {
             buttonText: "REPOSITÓRIO"
         },
         {
+            name: "Tela simples de Login , apenas parte visual, feito em html,css e js, com um design moderno e responsivo",
+            image: "./images/Login.png",
+            link: "https://github.com/Zacanini/LIGHT-DARK-Registration-Screen",
+            buttonText: "REPOSITÓRIO"
+        },
+        {
             name: "Jogo do Spider Man inspirado no Mario Bros, o Spider Jump, feito completamente em JavaScript, onde o jogador clica em alguma tecla para pular, cada pulo soma 1 no score, a cada 10 pulos aumenta a velocidade e caso haja colisão o jogo encerra.",
-            image: "./images/Jogo.png",
+            image: "./images/jogo.png",
             link: "https://github.com/Zacanini/LIGHT-DARK-Registration-Screen",
             buttonText: "REPOSITÓRIO"
         },
@@ -62,7 +80,7 @@ export const Projects = () => {
                         <div className="divProject" key={index}>
                             <h1 className="nameProject">{project.name}</h1>
                             <img
-                                style={{ marginBottom: 8 }}
+                                style={{ marginBottom: 8 , width: 600}}
                                 src={project.image}
                                 alt="Project"
                             />
