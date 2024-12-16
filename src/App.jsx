@@ -7,6 +7,7 @@ import { CaixaUm } from './components/AnimationBox';
 import { ReadMe } from './components/ReadMe';
 import { DivSkills } from './components/skils';
 import { Projects } from './components/Projects';
+import { BoxMidialLinks } from './components/RedesSociais';
 import DownloadButton from './components/DownloadButton';
 
 
@@ -17,9 +18,10 @@ function App() {
     <>
       <NavBar/>
       <div id="home">
-        <TextoUm/>
+        <TextoUm />
         <DownloadButton fileName="./images/CurrículoMatheuZacanini(2025-1).pdf" label="Baixar Curriculo" />
-        <CaixaUm/>
+        <BoxMidialLinks />
+        <CaixaUm />
       </div>
       <ReadMe/>
       <DivSkills/>
