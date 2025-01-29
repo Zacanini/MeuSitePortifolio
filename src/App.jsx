@@ -19,7 +19,7 @@ function App() {
       <NavBar/>
       <div id="home">
         <TextoUm />
-        <DownloadButton fileName="dist/images/CurrículoMatheusZacanini(2025-1).pdf" label="Baixar Curriculo" />
+        <DownloadButton label="Baixar Curriculo" />
         <BoxMidialLinks />
         <CaixaUm />
       </div>
