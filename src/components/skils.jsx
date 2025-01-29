@@ -66,20 +66,26 @@ export const DivSkills = () => {
     return (
         <>
             <TituloGlobal conteudo={"Skills  </>"} id={"skills"} />
-            <div className="divSkills">
-                <button className="carousel-button left" onClick={handlePrev}>
+            <div className="carousel">
+                <button className="arrow left-arrow" onClick={handlePrev}>
                     <FaArrowLeft />
                 </button>
-                <div className="carousel-item">
-                    <img src={items[currentIndex].icon} alt={items[currentIndex].subtitle} className="carousel-icon" />
-                    <h3 style={{ color: "white" }} className="carousel-subtitle">{items[currentIndex].subtitle}</h3>
-                    <p style={{ width: 300, marginTop: 10, color: "#262626" }} className="carousel-text">{items[currentIndex].text}</p>
+                <div
+                    className="carousel-inner"
+                    style={{ transform: `translateX(-${currentIndex * 100}%)`}}
+                >
+                    {items.map((item, index) => (
+                        <div className="carousel-item" key={index}>
+                            <img src={item.icon} alt={item.subtitle} className="carousel-icon" />
+                            <h3 className="carousel-subtitle">{item.subtitle}</h3>
+                            <p className="carousel-text">{item.text}</p>
+                        </div>
+                    ))}
                 </div>
-                <button className="carousel-button right" onClick={handleNext}>
+                <button className="arrow right-arrow" onClick={handleNext}>
                     <FaArrowRight />
                 </button>
             </div>
-            
         </>
     );
-}
+};

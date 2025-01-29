@@ -14,7 +14,6 @@ export const ReadMe = () => {
                 <div className="ReadMe">
                     <ConteudoReadme />
                 </div>
-                <ButtonMyGit href={"https://www.linkedin.com/in/matheus-zacanini/"} />
             </div>
         </>
 
